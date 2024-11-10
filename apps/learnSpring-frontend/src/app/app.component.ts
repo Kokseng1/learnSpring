@@ -6,11 +6,13 @@ import {
   FontAwesomeModule,
 } from '@fortawesome/angular-fontawesome';
 import { fontAwesomeIcons } from './shared/font-awesome-icons';
+import { NavbarComponent } from './layout/navbar/navbar.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, FontAwesomeModule],
-  selector: 'app-root',
+  imports: [RouterModule, FontAwesomeModule, NavbarComponent, FooterComponent],
+  selector: 'learnSpring-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
