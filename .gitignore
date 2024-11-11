@@ -4,6 +4,7 @@
 dist
 tmp
 /out-tsc
+apps/learn-spring-backend/volumes/
 
 # dependencies
 node_modules
