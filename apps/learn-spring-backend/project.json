@@ -2,5 +2,14 @@
   "name": "learn-spring-backend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/learn-spring-backend/src",
-  "tags": []
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nxrocks/nx-spring-boot:run",
+      "options": {
+        "root": "apps/learn-spring-backend",
+        "args": ["-Dspring-boot.run.profiles=local"]
+      }
+    }
+  }
 }

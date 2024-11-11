@@ -3,7 +3,9 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-apps/learn-spring-backend/volumes/learnSpring/postgres/
+apps/learn-spring-backend/volumes/learnSpring/postgres/base/*
+apps\learn-spring-backend\volumes\learnSpring\postgres\base\*
+apps\learn-spring-backend\volumes\learnSpring\postgres\global\*
 
 ### STS ###
 .apt_generated

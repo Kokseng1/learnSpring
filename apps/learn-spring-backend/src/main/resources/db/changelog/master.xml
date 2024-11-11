@@ -15,4 +15,8 @@
   <include file="/db/changelog/00000000000003_product.xml" relativeToChangelogFile="false"/>
   <include file="/db/changelog/00000000000004_order.xml" relativeToChangelogFile="false"/>
 
+
+  <!-- <changeSet id="1" author="kokseng1">
+      <createSchema schemaName="default_schema_name_test"/>
+  </changeSet> -->
 </databaseChangeLog>
